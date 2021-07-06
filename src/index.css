@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100vw;
+    height: 15vh;
+    background-color: peru;
+    display: flex;
+}
+
+.header h1 {
+    color: green;
+    margin: auto;
+}
+
+.sidebar {
+    width: 30vw;
+    height: 70vh;
+    background-color: dodgerblue;
+    float: left;
+}
+
+.body {
+    width: 70%;
+    height: 70vh;
+    background-color: papayawhip;
+    float: right;
+}
+
+.footer {
+    width: 100vw;
+    height: 15vh;
+    background-color: peru;
+    display: flex;
+}
